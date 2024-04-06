@@ -21,7 +21,7 @@ const Navbar = () => {
           </div>
 
           <div className="hidden md:flex space-x-9 items-center">
-            <NavLink to="/about-us" className="text-black menu-link " activeClassName="font-bold  ">
+            <NavLink to="/about" className="text-black menu-link " activeClassName="font-bold  ">
               About Us
             </NavLink>
             <NavLink to="/why-us" className="text-black menu-link " activeClassName="font-bold">

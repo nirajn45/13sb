@@ -1,9 +1,11 @@
 import React from 'react'
-
+import CUHeader from '../../components/ContactUsComponents/CUHeader'
+import CUMain from '../../components/ContactUsComponents/CUMain'
 const Contacts = () => {
   return (
     <div>
-      ccijvnjfvnhj
+     <CUHeader/>
+     <CUMain/>
     </div>
   )
 }
