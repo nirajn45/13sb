@@ -1,19 +1,16 @@
+import React from 'react';
+import img from '../assets/home/img.jpg';
 
-import React from 'react'
-import img from '../assets/home/homeheader.jpg'
 const Header = () => {
-    return (
-      <>
-      <div className="hero h-[57vh] "  style={{backgroundImage: 'linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 60%),url(https://img.freepik.com/free-photo/person-taking-care-office-cleaning_23-2149374423.jpg?w=996)'} }>
-      <div className="hero-overlay "></div>
+  return (
+    <div className="hero h-[67vh] relative" style={{backgroundImage: `linear-gradient(to left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(${img})`, backgroundPosition: 'center', backgroundSize: 'cover'}}>
       <div className="hero-content text-center text-neutral-content">
-        <div className="max-w-md">
-          <h1 className="mb-5 text-white text-5xl font-bold">Your trusted partner in cleaning services</h1>
+        <div className="">
+          <h1 className="mb-5 text-white text-5xl font-bold ">Your trusted <span className='text-yellow-400'>partner in cleaning</span> services</h1>
         </div>
       </div>
     </div>
-    </>
-    )
-}
+  );
+};
 
-export default Header
+export default Header;
