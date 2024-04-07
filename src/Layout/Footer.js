@@ -19,7 +19,7 @@ const Footer = () => {
           <p className="link link-hover">About Us</p>
           <p className="link link-hover">Contact</p>
           <p className="link link-hover">FAQ</p>
-          <p className="link link-hover">Blog</p>
+          <p className="link link-hover">Services</p>
         </nav> 
         <nav>
           <h6 className="footer-title text-yellow-500">Legal</h6> 
