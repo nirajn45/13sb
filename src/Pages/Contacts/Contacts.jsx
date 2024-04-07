@@ -1,6 +1,6 @@
 import React from 'react'
-import CUHeader from '../../components/ContactUsComponents/CUHeader'
-import CUMain from '../../components/ContactUsComponents/CUMain'
+import CUHeader from '../../components/Contacts/CUHeader'
+import CUMain from '../../components/Contacts/CUMain'
 const Contacts = () => {
   return (
     <div>

@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="bg-white p-2">
+      <nav className="bg-base-200 p-5 sticky top-0 z-50">
         <div className="container mx-auto flex justify-between items-center lg:px-11">
           <div>
             <Link to="/" className="text-black text-lg font-semibold ">
@@ -21,21 +21,25 @@ const Navbar = () => {
           </div>
 
           <div className="hidden md:flex space-x-9 items-center">
-            <NavLink to="/about" className="text-black menu-link " activeClassName="font-bold  ">
+            <NavLink to="/about" className="text-white   hover:text-yellow-600 hover:font-semibold transition duration-300 ease-in-out" activeClassName="font-bold  ">
               About Us
             </NavLink>
-            <NavLink to="/why-us" className="text-black menu-link " activeClassName="font-bold">
-              Why Us
+            <NavLink to="/services" className="text-white  transition duration-300 ease-in-out hover:text-yellow-600  hover:font-semibold" activeClassName="font-bold">
+              Services
             </NavLink>
-            <NavLink to="/contribute-with-us" className="text-black menu-link " activeClassName="font-bold">
-              Contribute With Us
+            <NavLink to="/contacts" className="text-white  transition duration-300 ease-in-out hover:text-yellow-600 hover:font-semibold" activeClassName="font-bold">
+              Contact Us
             </NavLink>
-            
+            <NavLink to="/contacts">
+              <button className=" bg-yellow-600 text-white p-2 rounded-sm">
+                Book Now
+              </button>
+            </NavLink>
             
           </div>
 
           <div className="md:hidden">
-            <button onClick={toggleMenu} className="text-black focus:outline-none duration-500">
+            <button onClick={toggleMenu} className="text-white focus:outline-none duration-500">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -51,7 +55,7 @@ const Navbar = () => {
       </nav>
 
       {isMenuOpen && (
-        <div className="md:hidden fixed inset-0 bg-gray-800 bg-opacity-100 z-50 duration-500">
+        <div className="md:hidden fixed inset-0  bg-gray-800 bg-opacity-100 z-50 duration-500">
           <div className="flex justify-between p-4">
             <img src={logoBlack} alt="" srcset="" className='nav-logo w-10' />
             <button onClick={toggleMenu} className="text-white duration-500">
@@ -77,24 +81,24 @@ const Navbar = () => {
                 Home
               </NavLink>
               <NavLink
-                to="/about-us"
+                to="/about"
                 onClick={toggleMenu}
                 activeClassName="underline"
               >
                 About Us
               </NavLink>
               <NavLink
-                to="/students"
+                to="/services"
                 onClick={toggleMenu}
                 activeClassName="underline"
               >
-                Students
+                Services
               </NavLink>
               
              
              
               <NavLink
-                to="/contact"
+                to="/contacts"
                 onClick={toggleMenu}
                 activeClassName="underline"
               >

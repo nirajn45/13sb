@@ -1,16 +1,16 @@
 import React from 'react'
 import Head from '../../components/About/Head';
-import Image from '../../components/About/Image';
-import Content from '../../components/About/Content';
 import LowerCard from '../../components/About/LowerCard';
+import Cleaning from '../../components/About/cleaning';
+import Vision from '../../components/About/Vision';
 
 
 const About = () => {
   return (
     <div>
       <Head/>
-      <Image/>
-      <Content/>
+      <Cleaning></Cleaning>
+      <Vision></Vision>
       <LowerCard/>
     </div>
   )

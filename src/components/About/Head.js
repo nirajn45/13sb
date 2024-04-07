@@ -1,16 +1,19 @@
-import React from 'react'
-import '../About/Head.css'
 
+import React from 'react'
+import backdrop from '../assets/About/backdrop.jpg'
 const Head = () => {
-  return (
-    <div>
-        <div className='head w-full h-80 lg:text-8xl md:text-5xl sm:text-xl font-bold bg-gray-900 text-white bg-center bg-blend-multiply flex justify-center items-center'>
-          ABOUT  US
+    return (
+      <>
+      <div className="hero h-[57vh] "  style={{backgroundImage: `url(${backdrop})`} }>
+      <div className="hero-overlay "></div>
+      <div className="hero-content text-center text-neutral-content">
+        <div className="max-w-md">
+          <h1 className="mb-5 text-white text-5xl font-bold">About Us</h1>
+        </div>
       </div>
     </div>
-
-    
-  )
+    </>
+    )
 }
 
-export default Head;
+export default Head
