@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const FAQs = () => {
   return (
@@ -17,8 +17,8 @@ const FAQs = () => {
                     <span className="text-lg font-semibold text-white">?</span>
                 </div>
                 <div className="ml-4">
-                    <p className="text-xl font-semibold text-white">How to create an account?</p>
-                    <p className="mt-4 text-base text-gray-400">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                    <p className="text-xl font-semibold text-white">How can I book your services?</p>
+                    <p className="mt-4 text-base text-gray-400">Booking our services is easy! Simply visit our website and navigate to the "Book Now" page. From there, you can select the services you need, choose your preferred date and time, and complete the booking process. Alternatively, you can also contact our customer support for assistance with booking.</p>
                 </div>
             </div>
 
@@ -28,7 +28,7 @@ const FAQs = () => {
                 </div>
                 <div className="ml-4">
                     <p className="text-xl font-semibold text-white">How can I make payment?</p>
-                    <p className="mt-4 text-base text-gray-400">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                    <p className="mt-4 text-base text-gray-400">To make a payment, go to the "Payments" section in your account dashboard. From there, you can choose your preferred payment method and follow the instructions to complete the transaction.</p>
                 </div>
             </div>
 
@@ -38,7 +38,7 @@ const FAQs = () => {
                 </div>
                 <div className="ml-4">
                     <p className="text-xl font-semibold text-white">Do you provide discounts?</p>
-                    <p className="mt-4 text-base text-gray-400">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                    <p className="mt-4 text-base text-gray-400">Yes, we offer discounts on bulk orders and recurring services. Please contact our customer support for more information on available discounts.</p>
                 </div>
             </div>
 
@@ -48,7 +48,7 @@ const FAQs = () => {
                 </div>
                 <div className="ml-4">
                     <p className="text-xl font-semibold text-white">How do you provide support?</p>
-                    <p className="mt-4 text-base text-gray-400">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                    <p className="mt-4 text-base text-gray-400">We provide support through various channels, including email, live chat, and phone. You can reach out to our support team anytime for assistance with any questions or issues you may have.</p>
                 </div>
             </div>
         </div>

@@ -73,7 +73,7 @@ const Card = () => {
                             className="rounded-xl px-6 py-8 bg-base-300 shadow-lg hover:shadow-lg hover:text-yellow-300 transform hover:translate-y-[-10px] transition duration-300 ease-in-out"
                         >
                             <a href={service.link} className="group block">
-                                <img src={service.icon} alt="" className="mx-auto w-[200] object-cover" />
+                                <img src={service.icon} alt="" className="mx-auto w-[150] object-cover" />
                                 <h3 className=" font-display text-xl font-semibold group-hover:text-primary-500">
                                     {service.title}
                                 </h3>

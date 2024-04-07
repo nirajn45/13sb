@@ -16,23 +16,23 @@ const Navbar = () => {
         <div className="container mx-auto flex justify-between items-center lg:px-11">
           <div>
             <Link to="/" className="text-black text-lg font-semibold ">
-              <img src={logoBlack} alt="TechLearns Logo" className="nav-logo w-11  " />
+              <img src={logoBlack} alt="13Sb Logo" className="nav-logo w-16 " />
             </Link>
           </div>
 
           <div className="hidden md:flex space-x-9 items-center">
-            <NavLink to="/about" className="text-white   hover:text-yellow-600 hover:font-semibold transition duration-300 ease-in-out" activeClassName="font-bold  ">
+            <NavLink to="/about" className="text-white   hover:text-yellow-400 hover:font-semibold transition duration-300 ease-in-out" activeClassName="font-bold  ">
               About Us
             </NavLink>
-            <NavLink to="/services" className="text-white  transition duration-300 ease-in-out hover:text-yellow-600  hover:font-semibold" activeClassName="font-bold">
+            <NavLink to="/services" className="text-white  transition duration-300 ease-in-out hover:text-yellow-400  hover:font-semibold" activeClassName="font-bold">
               Services
             </NavLink>
-            <NavLink to="/contacts" className="text-white  transition duration-300 ease-in-out hover:text-yellow-600 hover:font-semibold" activeClassName="font-bold">
+            <NavLink to="/contacts" className="text-white  transition duration-300 ease-in-out hover:text-yellow-400 hover:font-semibold" activeClassName="font-bold">
               Contact Us
             </NavLink>
             <NavLink to="/contacts">
-              <button className=" bg-yellow-600 text-white p-2 rounded-sm">
-                Book Now
+              <button className=" bg-yellow-400 text-white p-2 rounded-sm">
+                <span className='text-black'>Book Now</span>
               </button>
             </NavLink>
             
