@@ -43,7 +43,7 @@ const Vision = () => {
             ></div>
             <div id="features" className="mx-auto max-w-10/12 md:max-w-6xl relative z-10">
                 <h2 className="text-center font-display text-3xl font-bold tracking-tight text-gray-200 md:text-4xl">
-                    Our Vision & <span className='text-[#ffe14d]'>Values</span>
+                    Our Vision & <span className='text-yellow-400'>Values</span>
                 </h2>
                 <p className="text-center text-slate-300 text-base font-semibold leading-7 text-primary-500 mt-8">
                     Immerse yourself in the ethos of our cleaning service, where dedication, reliability, and professionalism define our workplace dynamics.
@@ -52,7 +52,7 @@ const Vision = () => {
                     {serviceData.map((service, index) => (
                         <li
                             key={index}
-                            className="rounded-xl px-6 py-8 bg-base-200 shadow-md hover:shadow-lg  hover:text-[#ffdb3b] transform hover:translate-y-[-5px] transition duration-300 ease-in-out"
+                            className="rounded-xl px-6 py-8 text-white bg-base-200 shadow-md hover:shadow-lg  hover:text-[#ffdb3b] transform hover:translate-y-[-5px] transition duration-300 ease-in-out"
                         >
                             <a href={service.link} className="group block">
                                 <img src={service.icon} alt="" className="mx-auto h-40 w-40" />

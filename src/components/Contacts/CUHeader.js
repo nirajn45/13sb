@@ -7,7 +7,7 @@ const CUHeader = () => {
       <div className="hero-overlay "></div>
       <div className="hero-content text-center text-neutral-content">
         <div className="max-w-md">
-          <h1 className="mb-5 text-white text-5xl font-bold">Contact Us</h1>
+          <h1 className="mb-5 text-white text-5xl font-bold">Contact <span className='text-yellow-400'>Us</span></h1>
         </div>
       </div>
     </div>
