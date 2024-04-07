@@ -1,10 +1,10 @@
 import React from 'react'
-
+import Foot from '../../components/Home/Foot'
 
 const Home = () => {
   return (
     <div>
-    hbhu
+    <Foot></Foot>
     </div>
   )
 }
