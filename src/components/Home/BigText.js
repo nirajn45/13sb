@@ -32,7 +32,7 @@ const BigText = () => {
             <div className="px-2 py-10 w-10/12 mx-auto mt-4 relative z-10">
                 <div id="features" className="mx-auto max-w-10/12 md:max-w-6xl">
                     <h2 className="text-center font-display text-3xl font-semibold tracking-tight text-white md:text-4xl pt-7">
-                        Our Cleaning <span className='text-[#ffe045]'>Services</span>
+                        Our Cleaning <span className='text-yellow-400'>Services</span>
                     </h2>
                     <p className="text-center text-white text-base font-semibold leading-7 mt-8">
                         Providing Exceptional Cleaning Solutions

@@ -7,7 +7,7 @@ const CUMain = () => {
                 {/* Left Div - Text Content */}
                 <div className="md:w-1/2 p-10">
                     <h2 className="text-4xl font-bold mb-4 text-white">
-                        Get in Touch
+                        <span className='text-yellow-400'>Get in</span> Touch
                     </h2>
                     <p className="text-lg text-gray-200">
                     We're here to make your space shine! Whether it's your home or office, <span className='font-bold text-yellow-500 px-2'>our professional cleaning</span>

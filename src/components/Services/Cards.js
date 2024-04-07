@@ -64,7 +64,7 @@ const Card = () => {
             ></div>
             <div id="features" className="mx-auto max-w-10/12 md:max-w-6xl relative z-10">
                 <h2 className="text-center font-display text-3xl font-bold tracking-tight text-white md:text-5xl">
-                    Services we offer
+                    Services <span className='text-yellow-400'>we offer</span>
                 </h2>
                 <ul className="mt-10 text-center grid gap-12 lg:grid-cols-3 md:grid-cols-2">
                     {serviceData.map((service, index) => (

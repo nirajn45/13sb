@@ -5,7 +5,7 @@ const Login = () => {
         <div className="hero min-h-screen bg-base-200 mt-10 mb-10">
             <div className="hero-content flex-col lg:flex-row w-full">
                 <div className="w-full lg:w-1/2 lg:text-left p-8">
-                    <h1 className="text-5xl font-bold">Login now!</h1>
+                    <h1 className="text-5xl font-bold"><span className="text-white">Login</span><span className="text-yellow-400"> now!</span></h1>
                     <p className="py-6">Seize the opportunity to login now. Seek to find solutions to challenges that arise, as they provide opportunities for growth. We encounter challenges and obstacles on our journey, but they also present opportunities for learning and development.</p>
                 </div>
                 <div className="w-full lg:w-1/2 p-8">
@@ -27,7 +27,7 @@ const Login = () => {
                                 </label>
                             </div>
                             <div className="form-control mt-6">
-                                <button className="btn btn-primary">Login</button>
+                                <button className="btn bg-yellow-400"><span className="text-black">Login</span></button>
                             </div>
                         </form>
                     </div>
