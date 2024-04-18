@@ -4,7 +4,7 @@ import backdrop from '../assets/About/backdrop.jpg'
 const Head = () => {
     return (
       <>
-      <div className="hero h-[57vh] "  style={{backgroundImage: `url(${backdrop})`} }>
+      <div className="hero h-[67vh] "  style={{backgroundImage: `url(${backdrop})`} }>
       <div className="hero-overlay "></div>
       <div className="hero-content text-center text-neutral-content">
         <div className="max-w-md">

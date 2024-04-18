@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-
+import img11 from "../assets/home/img11.jpg"
 function Divider() {
   return (
     <div className="flex flex-col md:flex-row glass items-center">
@@ -18,7 +18,7 @@ function Divider() {
         </div>
       </div>
       <div className="w-full md:w-1/2 mt-8 md:mt-0 mx-4 md:mx-8 lg:mx-14">
-        <img src='https://images.squarespace-cdn.com/content/v1/552c09e0e4b04e8c94c1739c/1568749203614-LT3KAFWM3TZ5EGRFF1CF/IMG_3212.jpg?format=1500w' alt='' className='w-full h-auto'/>
+        <img src={img11} alt=''/>
       </div>
     </div>
   );

@@ -1,19 +1,20 @@
 import React from "react";
 import { NavLink } from 'react-router-dom';
+import img10 from "../assets/home/img10.jpg"
 const Divider2 = () => {
   return (
     <div className="flex flex-col md:flex-row glass items-center">
       <div className="w-full md:w-1/2 mt-8 md:mt-0 mx-4 md:mx-8 lg:mx-14 ">
         <img
-          src='https://plus.unsplash.com/premium_photo-1661690569941-e87b71d91dda?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2xlYW5pbmclMjBzZXJ2aWNlc3xlbnwwfHwwfHx8MA%3D%3D'
+          src= {img10}
           alt=''
           className='w-full h-auto'
         />
       </div>
       <div className="w-full md:w-1/2 mt-8 md:mt-0 px-4 md:px-8 lg:px-24 py-6 md:py-10">
-        <h1 className='text-2xl md:text-4xl font-black text-white mb-8'><span className="text-yellow-400">Experience the Power of Clean:</span> Unveiling Our Signature Cleaning Offerings</h1>
+        <h1 className='text-2xl md:text-4xl font-black text-white mb-8'><span className="text-yellow-400">Unlock a Fresher Home:</span> Explore Our Premium Cleaning Solutions</h1>
         <p className='mt-2 md:mt-4 text-white text-sm md:text-base'>
-          From meticulous attention to detail to eco-friendly practices, we're dedicated to transforming your space into a pristine sanctuary. With our expert team and innovative techniques, discover unparalleled cleanliness that exceeds expectations. Trust us to unveil a new standard of cleanliness tailored to your needs.
+        Dive into our range of cleaning services designed to give your home a pristine, refreshing ambiance. From deep cleaning to eco-friendly options, discover how we make every corner spotless.Let your space sparkle like never before with our professional cleaning services.
         </p>
         <div className="flex flex-col md:flex-row mt-6 md:mt-9">
         <NavLink to="/contacts">
